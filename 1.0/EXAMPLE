@@ -1,0 +1,2 @@
+URL_GIT=https://github.com/davidsulc/backbone.marionette-collection-example.git
+docker run -p 80 -d -e "GIT_APP=$URL_GIT" alamilla/nginx
